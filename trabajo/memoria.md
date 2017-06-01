@@ -28,7 +28,7 @@ Docker es una plataforma de software que le permite crear, probar e implementar 
 #### Las aplicaciones con contenedores facilitan la implementación, la identificación de problemas y el retorno a una fase anterior para remediarlos
 
 
-##Empresas que lo utilizan
+## Empresas que lo utilizan
 
 Organizaciones contribuidoras apuestan por Docker:
 
