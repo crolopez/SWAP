@@ -347,7 +347,7 @@ Los usuarios directos de la aplicación a desarrollar es el usuario registrado q
 	* RF-1.1. El sistema será capaz de responder al entrar
 * **RF-2. Guardar Datos** El sistema guardará los datos
 	* RF-2.1. El sistema será capaz de almacenar los datos
-* **RF-3. ver estadisticas** El sistema mostrará los datos
+* **RF-3. Ver estadísticas** El sistema mostrará los datos
 	* RF-3.1. El sistema será capaz de mostrar porcentajes de datos guardados
 * **RF-4. Cerrar sesión** El sistema eliminará los datos 
 	* RF-4.1. El sistema borrará todos los datos utilizados en la sesión 
@@ -364,15 +364,15 @@ carga posibles.
 
 
 ### Requisitos de Información
-* ** RI1 Iniciar Sesión**
-	* Imformación de usuario 
+* **RI1 Iniciar Sesión**
+	* Información de usuario 
 	* **Contenido:** un usuario esta identificado por su usuario y la contraseña
 	* **Requisitos asociados:** RF-1, RF-2,RF-3,RF-4
 
-* ** RI2 Datos**
+* **RI2 Datos**
 	* Información del servidor y del cliente
 	* **Contenido:** Información destinada para guardar direcciones IP, sistemas operativos, navegadores tamaños de pantalla y usuario
-	* **Requisitos asociados:**RF2,RF3
+	* **Requisitos asociados:** RF2,RF3
 
 
 
@@ -382,7 +382,7 @@ carga posibles.
 ![img](./imagenes/Casosdeuso.png)
 
 
-### Descripción Extendida de los casos de usos
+### Descripción extendida de los casos de usos
 #### Iniciar sesión
 
 <table class="tg">
@@ -420,7 +420,7 @@ carga posibles.
     <th class="tg-yw4l" colspan="7">Próposito</th>
   </tr>
   <tr>
-    <td class="tg-yw4l" colspan="7">Iniciar Sesion en la plataforma</td>
+    <td class="tg-yw4l" colspan="7">Iniciar Sesión en la plataforma</td>
   </tr>
 </table>
 
@@ -430,7 +430,7 @@ carga posibles.
     <th class="tg-yw4l" colspan="7">Resumen</th>
   </tr>
   <tr>
-    <td class="tg-yw4l" colspan="7">El usuario inicia sesion con su usuario y contraseña</td>
+    <td class="tg-yw4l" colspan="7">El usuario inicia sesión con su usuario y contraseña</td>
   </tr>
 </table>
 
@@ -440,7 +440,7 @@ carga posibles.
   </tr>
   <tr>
     <td class="tg-yw4l">1</td>
-    <td class="tg-yw4l" colspan="3">Usuario entra en la pagina web </td>
+    <td class="tg-yw4l" colspan="3">Usuario entra en la página web </td>
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l" colspan="3"></td>
   </tr>
@@ -467,7 +467,7 @@ carga posibles.
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l" colspan="3"></td>
     <td class="tg-yw4l">5</td>
-    <td class="tg-yw4l" colspan="3">El sistema comprueba que los datos estan bien</td>
+    <td class="tg-yw4l" colspan="3">El sistema comprueba que los datos están bien</td>
   <tr>
     <td class="tg-yw4l"></td>
     <td class="tg-yw4l" colspan="3"></td>
@@ -581,6 +581,7 @@ carga posibles.
     <td class="tg-yw4l" colspan="7">Si los datos no se pueden guardar vuelve a la página de nuevo</td>
   </tr>
 </table>
+
 #### Ver estadísticas
 
 <table class="tg">
