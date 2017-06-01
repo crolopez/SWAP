@@ -581,7 +581,7 @@ carga posibles.
     <td class="tg-yw4l" colspan="7">Si los datos no se pueden guardar vuelve a la página de nuevo</td>
   </tr>
 </table>
-#### ver estadisticas
+#### Ver estadísticas
 
 <table class="tg">
   <tr>
@@ -782,7 +782,7 @@ carga posibles.
 ![img](./imagenes/SecIS.png)
 #### Guardar datos
 ![img](./imagenes/SecGD.png)
-#### Ver estadisticas
+#### Ver estadísticas
 ![img](./imagenes/SecVE.png)
 #### Cerrar Sesión
 ![img](./imagenes/SecCS.png)
@@ -794,7 +794,7 @@ carga posibles.
 sudo docker import ApacheTrabajo.tar
 ~~~
 
-## lo buscamos entre las imagenes
+## Lo buscamos entre las imágenes
 ~~~
 sudo docker images
 ~~~
@@ -856,7 +856,7 @@ UUID=1ee1f774:c5d0c62d:dc01f0cf:98c776a8 /dat ext2 defaults 0 0
 ![img](./imagenes/RAID1-2.png)
 
 
-###La tabla usada
+### La tabla usada
   CREATE TABLE `USER`(
   USUARIO mediumint(9) NOT NULL,
   PASS binary(16) NOT NULL
