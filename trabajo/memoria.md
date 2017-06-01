@@ -22,10 +22,10 @@ Docker es una plataforma de software que le permite crear, probar e implementar 
 
 ## Ventajas de Docker
 
-#### Mejora la productividad de desarrollo Docker 
-#### Reduce el tiempo empleado en configurar nuevos entornos o en solucionar los problemas asociados con el uso de entornos diferentes
-#### Estandariza las operaciones de aplicaciones 
-#### Las aplicaciones con contenedores facilitan la implementación, la identificación de problemas y el retorno a una fase anterior para remediarlos
+* Mejora la productividad de desarrollo Docker 
+* Reduce el tiempo empleado en configurar nuevos entornos o en solucionar los problemas asociados con el uso de entornos diferentes
+* Estandariza las operaciones de aplicaciones 
+* Las aplicaciones con contenedores facilitan la implementación, la identificación de problemas y el retorno a una fase anterior para remediarlos
 
 
 ## Empresas que lo utilizan
