@@ -1,4 +1,4 @@
-##Resumen del trabajo
+## Resumen del trabajo
 
  
 Nuestro trabajo consiste en recrear un servidor distribuido, accesible desde Internet, con el objetivo de observar la importancia y el funcionamiento de las herramientas que hemos utilizado en el curso agregando la tecnología Docker.
