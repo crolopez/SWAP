@@ -67,9 +67,9 @@ os y configurarlos con No-ip para tener una dirección en vez de una IP
 ![img](./imagenes/con3.png)
 
 ## Ideas iniciales: conexiones de contenedores 
-
+# 
 # Máquina Julián
-
+# 
 ~~~
 sudo docker run -d -p 1111:80 -p 1112:22 -p 1113:443 -p 1114:3306 -i -t --name ApacheTrabajo1 ubuntu bash
 ~~~
@@ -246,10 +246,10 @@ La copiamos en la maquina principal de nuestros contenedores
 ~~~
 ssh# ssh-copy-id -i ~/.ssh/id_rsa 172.17.0.2
 ~~~
-
-# Máquina Donas
-
 # 
+# Máquina Donas
+# 
+
 ## Descripción
 El objetivo de esta página web es gestionar la entrada y salida de usuarios registrados, guardar datos de aspectos tecnicos del servidor y del cliente, y ver porcentajes sobre los datos guardados
 
@@ -319,7 +319,7 @@ carga posibles.
 
 ### Glosario de términos extendido
 
-###Modelo Conceptual
+### Modelo Conceptual
 
 ### Diagramas de Secuencia
 
@@ -327,7 +327,9 @@ carga posibles.
 
 ### Diagrama de clases del diseño
 
+# 
 # Máquina Álvaro
+# 
 
 ## Importamos el contenedor que exportamos
 ~~~
@@ -364,7 +366,7 @@ sudo mount /dev/sdb2 /run/media/alvarogl/swap2/
 ![img](./imagenes/RAID1-5.png)
 creamos, arrancamos contenedor docker y accedemos
 ~~~
-sudo docker run --nam=apache_raid --privileged -d -p 1111:80 -p 1112:443 -p 1113:22  --device /dev/sdb1/:/dev/sdb  --device /dev/sdb1/:/dev/sdc -it 11d359dad1c2 bash
+sudo docker run --name=apache_raid --privileged -d -p 1111:80 -p 1112:443 -p 1113:22  --device /dev/sdb1/:/dev/sdb  --device /dev/sdb1/:/dev/sdc -it 11d359dad1c2 bash
 sudo docker attach apache_raid
 ~~~
 ![img](./imagenes/RAID1-4.png)
@@ -395,9 +397,9 @@ UUID=1ee1f774:c5d0c62d:dc01f0cf:98c776a8 /dat ext2 defaults 0 0
 ~~~
 ![img](./imagenes/RAID1-2.png)
 
-
+# 
 # Máquina Alejandro
-
+# 
 
 ## Creamos un nuevo contenedor
 
@@ -405,7 +407,7 @@ UUID=1ee1f774:c5d0c62d:dc01f0cf:98c776a8 /dat ext2 defaults 0 0
 sudo docker run -d -p 80:80 -p 443:443 -p 10022:22 -i -t --name BalanceadorTrabajo nginx bash
 ~~~
 
-## accedemos a el
+## accedemos a él
 
 ~~~
 sudo docker attach BalanceadorTrabajo
@@ -452,10 +454,11 @@ server{
 ~~~
 service nginx restart
 ~~~
-
+# 
 # Anécdotas
+# 
 
-# Hemos roto un Router
+# Hemos roto un router
 * Justo antes de reiniciar de HAPROXY el router desconecta la Wifi
 * Creemos que era por que se habia calentado por estar colocado verticalmente cuando su forma correcta es horizontal
 
@@ -510,7 +513,7 @@ ___
 7. [Securing Containers the Netflix Way](https://speakerdeck.com/bdpayne/securing-containers-the-netflix-way)
 8. [Netflix and containers not a stranger thing](https://es.slideshare.net/aspyker/netflix-and-containers-not-a-stranger-thing)
 9. [Deploying Docker Containers with Netflix Spinnaker on Kubernetes and Titus](https://www.youtube.com/watch?v=ySdqDGfEOHo)
-10. [AWS-Docker](https://aws.amazon.com/es/getting-started/tutorials/deploy-docker-containers/)
+10. [AWS-Docker] (https://aws.amazon.com/es/getting-started/tutorials/deploy-docker-containers/)
 11. [AWS-Docker-EC2 Container Service](https://aws.amazon.com/es/ecs/)
 12. [Spinnaker](http://www.spinnaker.io/docs/frequently-asked-questions)
 13. [HPE-Docker](http://h22168.www2.hpe.com/us/en/partners/docker/)
