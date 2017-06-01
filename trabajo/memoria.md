@@ -82,19 +82,19 @@ Nuestra idea principal era la de tener dos balanceadores uno para servidores Apa
 La idea final fue la de tener un balanceador de servidores, servidores Apache, dos bases de datos y uno con un dispositivo RAID
 ![img](./imagenes/dockersfinal.png)
 
-##Creamos un nuevo contenedor
+## Creamos un nuevo contenedor
 
 ~~~
 sudo docker run -d -p 80:80 -p 443:443 -p 10022:22 -i -t --name BalanceadorTrabajo nginx bash
 ~~~
 
-##accedemos
+## Accedemos
 
 ~~~
 sudo docker attach BalanceadorTrabajo
 ~~~
 
-##modificamos archivo /etc/nginx/conf.d/default.conf
+## Modificamos archivo /etc/nginx/conf.d/default.conf
 
 ~~~
 upstream apaches {
@@ -130,7 +130,7 @@ server{
 }
 ~~~
 
-## reiniciamos servicio
+## Reiniciamos servicio
 
 ~~~
 service nginx restart
@@ -302,7 +302,7 @@ sudo docker run -d -p 1123:80 -p 1124:22 -p 1125:443 -p 1126:3306 -i -t --name A
 
 
 
-##Configuración SSH copia automática
+## Configuración SSH copia automática
 Creamos la clave
 ~~~
 keygen -t rsa
@@ -338,7 +338,7 @@ Los usuarios directos de la aplicación a desarrollar es el usuario registrado q
 
 <table border="0" cellspacing="0" cellpadding="0" class="ta1"><colgroup><col width="134"/><col width="194"/><col width="99"/><col width="99"/></colgroup><tr class="ro1"><td style="text-align:left;width:30.76mm; " class="ce3"><p>Nombre</p></td><td style="text-align:left;width:44.38mm; " class="ce3"><p>Descripción </p></td><td style="text-align:left;width:22.58mm; " class="ce3"><p>Tipo</p></td><td style="text-align:left;width:22.58mm; " class="ce3"><p>Responsabilidad</p></td></tr><tr class="ro1"><td style="text-align:left;width:30.76mm; " class="Default"><p>Usuario registrado </p></td><td style="text-align:left;width:44.38mm; " class="Default"><p>Representa un usuario registrado</p></td><td style="text-align:left;width:22.58mm; " class="Default"><p>Usuario del sistema</p></td><td style="text-align:left;width:22.58mm; " class="Default"><p>Iniciar sesión, cerrar sesión, guardar datos y visualizar porcentajes</p></td></tr></table>
 
-### Criterios de Exito
+### Criterios de éxito
 * Usuario registrado: Que el sistema le permita utilizar la navegación de forma sencilla y rápida. 
 
 
@@ -366,7 +366,7 @@ carga posibles.
 ### Requisitos de Información
 * ** RI1 Iniciar Sesión**
 	* Imformación de usuario 
-	* **Contenido:** un usuario esta identificado por su usuario y la contraseña  
+	* **Contenido:** un usuario esta identificado por su usuario y la contraseña
 	* **Requisitos asociados:** RF-1, RF-2,RF-3,RF-4
 
 * ** RI2 Datos**
