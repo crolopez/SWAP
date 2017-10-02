@@ -33,7 +33,7 @@ Configuración lighttpd.conf:
 
 ![imagen](https://github.com/juliancifuentes95/Servidores-Web-de-Altas-Prestaciones-SWAP-/blob/master/Prácticas/Práctica%203/Imágenes/Configuración%20lighttpd.png)
 
-Como podemos ver, con el servicio lighttpd corriendo con la configuración realizada, podemos obtener la página web de las dos máquinas de manera alternativa:
+Como podemos ver en la siguiente figura, con el servicio lighttpd corriendo con la configuración realizada, podemos obtener la página web de las dos máquinas de manera alternativa:
 
 ![imagen](https://github.com/juliancifuentes95/Servidores-Web-de-Altas-Prestaciones-SWAP-/blob/master/Prácticas/Práctica%203/Imágenes/Web%20dos%20máquinas.png)
 
